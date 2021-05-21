@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_wrapper">
+            <div class="head_logo">
+                <img src="photos/logo.svg" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <div>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Галерея</a></li>
+                        <li><a href="#">Продукция</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </div>
+                    <li><button type="button">Связаться с производителем</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="all">
+            <input checked type="radio" name="respond" id="desktop">
+            <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+                <div id="slides">
+                    <div id="overflow">
+                        <div class="image">
+                            <article>
+                                <img src="photos/slider_banner.jpg">
+                                <h1>Let your dreams of perfection come true</h1>
+                                <button class="slider_btn">
+                                    <p>каталог</p>
+                                    <div>
+                                        <img src="photos/Arrow_2.png" alt="">
+                                    </div>
+                                </button>
+                            </article>
+                            <article>
+                                <img src="photos/slider_banner.jpg">
+                                <h1>Let your dreams of perfection come true</h1>
+                                <button class="slider_btn">
+                                    <p>каталог</p>
+                                    <div>
+                                        <img src="photos/Arrow_2.png" alt="">
+                                    </div>
+                                </button>
+                            </article>
+                            <article>
+                                <img src="photos/slider_banner.jpg">
+                                <h1>Let your dreams of perfection come true</h1>
+                                <button class="slider_btn">
+                                    <p>каталог</p>
+                                    <div>
+                                        <img src="photos/Arrow_2.png" alt="">
+                                    </div>
+                                </button>
+                            </article>
+                            <article>
+                                <img src="photos/slider_banner.jpg">
+                                <h1>Let your dreams of perfection come true</h1>
+                                <button class="slider_btn">
+                                    <p>каталог</p>
+                                    <div>
+                                        <img src="photos/Arrow_2.png" alt="">
+                                    </div>
+                                </button>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div id="controls">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                </div>
+                <div id="active">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                </div>
+            </article>
+        </div>
+    </header>
+    <main class="main">
+        <section class="galary">
+            <div class="galary_title">
+                <p>The estate</p>
+                <h1>Галерея</h1>
+            </div>
+            <div class="tabs">
+                <div class="tab">
+                    <input type="radio" id="tab1" name="tab-group" checked>
+                    <label for="tab1" class="tab-title title1"><span>1</span></label>
+                    <div class="tab-content">
+                        <img src="photos/galary_photo1.jpg" alt="">
+                        <img src="photos/galary_photo2.jpg" alt="">
+                        <img src="photos/galary_photo3.jpg" alt="">
+                        <img src="photos/galary_photo4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab2" name="tab-group">
+                    <label for="tab2" class="tab-title title2"><span>2</span></label>
+                    <div class="tab-content">
+                        <img src="photos/galary_photo2.jpg" alt="">
+                        <img src="photos/galary_photo1.jpg" alt="">
+                        <img src="photos/galary_photo3.jpg" alt="">
+                        <img src="photos/galary_photo4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab3" name="tab-group">
+                    <label for="tab3" class="tab-title title3"><span>3</span></label>
+                    <div class="tab-content">
+                        <img src="photos/galary_photo3.jpg" alt="">
+                        <img src="photos/galary_photo1.jpg" alt="">
+                        <img src="photos/galary_photo2.jpg" alt="">
+                        <img src="photos/galary_photo4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wine_video">
+            <div class="wine_philosophy">
+                <p class="wine_philosophy_p1">добро пожаловать в</p>
+                <h2>философию виноделия</h2>
+                <p class="wine_philosophy_p2">Наша цель - создавать вина классической красоты - 
+                    вина с балансом, сложностью и гармонией. 
+                    Наш фирменный стиль часто называют «железным 
+                    кулаком в бархатной перчатке», отсылкой к искусному 
+                    балансу между зрелостью и сдержанностью, мягкостью
+                     и структурой ...</p>
+            </div>
+            <div class="video_wrapper">
+                <!-- <video src="#">
+
+                </video> -->
+                <iframe width="589.46" height="420.92" src="https://www.youtube.com/embed/3vQq4yrbaPo" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <button>
+                    <div class="btn_text">
+                        <p>воспроизвести видео</p>
+                    </div>
+                    <div class="video_button_vector">
+                        <img src="photos/Arrow_2.png" alt="">
+                    </div>
+                </button>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="catalog_title">
+                <h2>Каталог</h2>
+            </div>
+            <div class="catalog_tabs_wrapper">
+                <div class="catalog_brendi_tab">
+                    <input checked type="radio" id="brendi" name="catalog_tabs">
+                    <label class="tab_title_br" for="brendi">Бренди</label>
+                    <div class="brendi_tab">
+                        <div class="brendi_product_card">
+                            <div class="brendi_tab_img">
+                                <img src="photos/catalog_brendi_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                        <div class="brendi_product_card">
+                            <div class="brendi_tab_img">
+                                <img src="photos/catalog_brendi_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                        <div class="brendi_product_card">
+                            <div class="brendi_tab_img">
+                                <img src="photos/catalog_brendi_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog_wine_tab">
+                    <input type="radio" id="wine" name="catalog_tabs">
+                    <label class="tab_title_wn" for="wine">Вино</label>
+                    <div class="wine_tab">
+                        <div class="wine_product_card">
+                            <div class="wine_tab_img">
+                                <img src="photos/catalog_wine_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                        <div class="wine_product_card">
+                            <div class="wine_tab_img">
+                                <img src="photos/catalog_wine_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                        <div class="wine_product_card">
+                            <div class="wine_tab_img">
+                                <img src="photos/catalog_wine_img.jpg" alt="">
+                            </div>
+                            <div class="tab_description">
+                                <h3>Бренди KOMURAT</h3>
+                                <P>Превосходный напиток, исключительного качества, 
+                                    приготовленный из винных дистиллятов 15 летней выдержки. 
+                                    Темно-золотой цвет придает ему благородство. Гармоничное 
+                                    сочетание тонкого вкуса эфирно-смолистыми и подсолнечными 
+                                    тонами. Награжден золотой медалью. Бутылка 500 мл. 
+                                    Из Extra - Flint стекла. Горловина из самоклеющей этикетки 
+                                    из алюминия с конгревом. Декор покрытие золотом. Лицевая и 
+                                    тыльная сторона под золото наносится сразу на бутылку
+                                     на заводе. Пробка корковая агломерат с золотой металлизацией. 
+                                     Термоусадка с логотипом. Индивидуальный короб на каждую 
+                                     бутылку. Транспортный короб на 12 бутылок. Данная серия 
+                                     производится на заводе Aroma, располагающий элитными 
+                                     дистиллятами заложенными на выдержку в дубовые бочки в 
+                                     середине прошлого столетия.</P>
+                                <div class="description_specification">
+                                    <div class="desc_spec_left">
+                                        <span>Тип вина:</span>
+                                        <span>Виноград:</span>
+                                        <span>Регион:</span>
+                                        <span>Производитель:</span>
+                                    </div>
+                                    <div class="desc_spec_right">
+                                        <span>Сухое</span>
+                                        <span>Совиньон блан</span>
+                                        <span>Молдова, Комрат</span>
+                                        <span>KOMURAT</span>
+                                    </div>
+                                </div>
+                                <button type="button">Связаться с производителем</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts_h2">
+                <h2>Контакты</h2>
+            </div>
+            <div class="contacts_wrapper">
+                <div class="contacts_description">
+                    <div class="contacts_description_string">
+                        <label for="contacts_adres"><img src="photos/point.svg" alt=""></label>
+                        <span id="contacts_adres">Молдова, г.Комрат, ул.Ленина 15/4</span>
+                    </div>
+                    
+                    <div class="contacts_description_string">
+                        <label for="contacts_tel"><img src="photos/mobile.svg" alt=""></label>
+                        <span id="contacts_tel">+373 79 552 554</span>
+                    </div>
+                    
+                    <div class="contacts_description_string">
+                        <label for="contacts_mail"><img src="photos/mail.svg" alt=""></label>
+                        <span id="contacts_mail">komurat@yahoo.com</span>
+                    </div>
+                </div>
+                <form class="contacts_form" action="#" method="POST">
+                    <div class="contacts_form_input_w">
+                        <div>
+                            <input type="text" placeholder="Имя">
+                            <input type="tel" placeholder="Телефон">
+                            <input type="email" name="" id="" placeholder="e-mail">
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+                    </div>
+                    
+                    <button type="submit">отправить</button>
+                </form>
+            </div>
+        </section>
+        <section class="map">
+            <map name="">
+                
+            </map>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer_nav">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">Продукция</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="created_by">
+            <p>
+                <span>CREATED BY</span>
+                <span>WOX STUDIO</span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
